@@ -1,0 +1,47 @@
+/* Modifiche che hanno valore in tutta la pagina*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oxygen, sans-serif;
+    background-image: url('https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+
+/* Titolo + sezione iniziali con dati personali*/ 
+#title {
+    font-weight: 300;
+    text-align: center;
+    font-size: 60px;
+}
+
+#h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+}
+
+#h2 {
+    padding-left: 10px;
+}
+
+
+/* Parte centrale della pagina con del testo*/
+#img {
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+.text {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Parte finale con link account personale GitHub*/
+#a {
+    text-decoration: none;
+}
